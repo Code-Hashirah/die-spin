@@ -30,7 +30,6 @@ body{
 #die:hover{
    transform: rotateZ(300deg);
    transform: rotateY(300deg);
-   transition: all;
 }
 #btn{
     margin: auto;

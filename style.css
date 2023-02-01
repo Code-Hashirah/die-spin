@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: radial-gradient(rgb(186, 159, 159));
+    display: flexbox;
+    min-height: 200px;
+}
+#table{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+#die{
+    height: 80px;
+    width: 12%;
+    border-radius: 100px;
+    box-shadow: inset;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#die:hover{
+   transform: rotateZ(300deg);
+   transform: rotateY(300deg);
+   transition: all;
+}
+#btn{
+    margin: auto;
+    margin-top: 20px;
+}
+#roll{
+    width: 80px;
+    height: 70px;
+    border-color: aqua;
+}
+#roll:hover{
+    background-image: linear-gradient(blue, purple,red);
+   
+}
+
